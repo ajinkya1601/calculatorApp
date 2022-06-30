@@ -23,10 +23,8 @@ public class Calculator {
 
     static Scanner sc;
     public static void main(String[] args) {
-        sc=new Scanner(System.in);
-        System.out.println("Enter two numbers to perform arithmetic operations : ");
-        int a= sc.nextInt();
-        int b=sc.nextInt();
+		int a=10;
+		int b=7;
         System.out.println(add(a,b));
         System.out.println(sub(a,b));
         System.out.println(mul(a,b));
